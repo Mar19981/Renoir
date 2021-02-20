@@ -1,0 +1,14 @@
+{
+  "angle": 90.0,
+  "rules": [
+    {
+      "character": "F",
+      "result": "F+f-FF+F+FF+Ff+FF-f+FF-F-FF-Ff-FFF"
+    },
+    {
+      "character": "f",
+      "result": "ffffff"
+    }
+  ],
+  "axiom": "F+F+F+F"
+}

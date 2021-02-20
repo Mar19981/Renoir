@@ -1,0 +1,10 @@
+{
+  "angle": 90.0,
+  "rules": [
+    {
+      "character": "F",
+      "result": "FF-F-F-F-FF"
+    }
+  ],
+  "axiom": "F-F-F-F"
+}

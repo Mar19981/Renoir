@@ -1,0 +1,14 @@
+{
+  "angle": 90.0,
+  "rules": [
+    {
+      "character": "L",
+      "result": "LF+RFR+FL-F-LFLFL-FRFR+"
+    },
+    {
+      "character": "R",
+      "result": "-LFLF+RFRFR+F+RF-LFL-FR"
+    }
+  ],
+  "axiom": "-L"
+}

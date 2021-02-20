@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="renoir::Base64ExportDialog">
+    <Position X="45.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAABAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base64ExportDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Base64Output">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAACCAA=</HashCode>
+      <FileName>Base64Output.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Brush">
+    <Position X="23.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAACqAAIAAAAAAAAAAQACAAAAAgAAIAAA=</HashCode>
+      <FileName>Brush.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::BrushSizeDialog">
+    <Position X="20.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BrushSizeDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Canvas">
+    <Position X="22.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEFAEASAhgSKhAQBQGYYB4EAAoCEKkgACwQATIAQIAA=</HashCode>
+      <FileName>Canvas.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="brush" />
+      <Field Name="eraser" />
+      <Field Name="scene" />
+      <Field Name="tool" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="renoir::Dither">
+    <Position X="37.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAECQAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dither.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::DitherDialog">
+    <Position X="36.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>DitherDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::EdgeDetection">
+    <Position X="42.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAIAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EdgeDetection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::EdgeDetectionDialog">
+    <Position X="29.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAEAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EdgeDetectionDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Ellipse">
+    <Position X="3.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgCAACCBCBAAgAAAAgACAGBAAAAgAAKAAAAgAAAISA=</HashCode>
+      <FileName>Ellipse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::EllipseSettingsDialog">
+    <Position X="13.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAACBEACAAAAAAAAAAAAAAAAEAAgAAAAAAAA=</HashCode>
+      <FileName>EllipseSettingsDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Eraser" Collapsed="true">
+    <Position X="23.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAIAIAAA=</HashCode>
+      <FileName>Eraser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Exporter">
+    <Position X="49.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Exporter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Filter">
+    <Position X="41.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAFAAAACAAAAAAAAIAUAAACBAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Filter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Fractal">
+    <Position X="32.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAEAQAQhAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Fractal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Gauss">
+    <Position X="44.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Gauss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::GaussianBlurDialog">
+    <Position X="31.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAAAAAAAEAAAAAAABAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GaussianBlurDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Julia">
+    <Position X="31.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAACAQAAAAAAAAAA=</HashCode>
+      <FileName>Julia.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::JuliaDialog">
+    <Position X="38.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAwAQAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>JuliaDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Kernel">
+    <Position X="40" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAAAAAAAAECAgAAACAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Kernel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::KernelDialog">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAAIAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KernelDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Layer">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAWAEDABCRAIgAAAAgAGAGBAAABgAAOAgQAoAAhISA=</HashCode>
+      <FileName>Layer.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="type" />
+      <Field Name="activeBrush" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="renoir::LSystem">
+    <Position X="33.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAIAAAAAAAAAAkAACIAAAAAAAACAQAAAEABAYAA=</HashCode>
+      <FileName>LSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::LSystemDialog">
+    <Position X="16" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAIAAAAAEAQAQAIBCICAAAAAACCACAgAIAAEIAA=</HashCode>
+      <FileName>LSystemDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Mandelbrot">
+    <Position X="31.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgACAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Mandelbrot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::MandelbrotDialog">
+    <Position X="22.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAQwQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MandelbrotDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::NewFileDialog">
+    <Position X="34" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAQAAAAEAoAAAAACAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>NewFileDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::NoiseDialog">
+    <Position X="40.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAQAQAAAAAAAAAAAAAAAAAAhAAAAAAA=</HashCode>
+      <FileName>NoiseDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::PixmapExport">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAEAAAAAAAAAAAIgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PixmapExport.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::RandomNoise">
+    <Position X="36.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgCAAgAAAAAAASAQAAAAAAAAAAAAAAAQAAAAAAAABA=</HashCode>
+      <FileName>RandomNoise.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::RasterLayer">
+    <Position X="6.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgCEACADCBAAgBAAAgAKAHBAAEQgAAKAAAAgAAAISA=</HashCode>
+      <FileName>RasterLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Rectangle">
+    <Position X="1.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgCAACABCBAAgAAAAgACAGBAAAggAAKAAAAgAAAISA=</HashCode>
+      <FileName>Rectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::RectangleSettingsDialog">
+    <Position X="25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAABEACAAAAAAAAAAAAAAAAEAAgAAAAAAAA=</HashCode>
+      <FileName>RectangleSettingsDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Renoir">
+    <Position X="13.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>A4gAICCGBABiGwgYCMUlkIwCiEgQKgAgAIggCsoAqGQ=</HashCode>
+      <FileName>Renoir.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="canvas" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="renoir::SetLayerNameDialog">
+    <Position X="43" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SetLayerNameDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Sharpen">
+    <Position X="35.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sharpen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::SharpenDialog">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAAIAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>SharpenDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Text">
+    <Position X="9.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgCAACABCBAAgAAAAgACAGBAAAAgAAKAAAAiAAAISA=</HashCode>
+      <FileName>Text.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::TextSettingsDialog">
+    <Position X="18.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAABEACAAAAAAAAAAAAACAAAAAgAAAAAAAA=</HashCode>
+      <FileName>TextSettingsDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::Treshold">
+    <Position X="46.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAIAAgAAGAAAAAAAAAEAAAAAAAAAAAJAAAIAA=</HashCode>
+      <FileName>Treshold.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="renoir::TresholdDialog">
+    <Position X="27.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAEAABAAEAAAAgCACoAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TresholdDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QDialog" Collapsed="true">
+    <Position X="27.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACJBAiiQBAQAAAQBABAIAAAAAAEIAAAgAERgAIgAEA=</HashCode>
+      <FileName>C:\Qt\5.14.1\msvc2017\include\QtWidgets\qdialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QMainWindow" Collapsed="true">
+    <Position X="13.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoACQgKYCA0hRAgRkKBY4oAAABEAABuBggAgIAMgACA=</HashCode>
+      <FileName>C:\Qt\5.14.1\msvc2017\include\QtWidgets\qmainwindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGraphicsPixmapItem" Collapsed="true">
+    <Position X="6.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABiAAAAAAACYCAAAAAAABAAAAAsBAAAQgCEAAgAABAA=</HashCode>
+      <FileName>C:\Qt\5.14.1\msvc2017\include\QtWidgets\qgraphicsitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGraphicsScene" Collapsed="true">
+    <Position X="25.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BF5HCBSkAkDIrNUUYCi6aRBBAkBUgNaQGEDYAkucAQI=</HashCode>
+      <FileName>C:\Qt\5.14.1\msvc2017\include\QtWidgets\qgraphicsscene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGraphicsRectItem" Collapsed="true">
+    <Position X="1.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAAAAAAAAQCgAAAAACIAAAAAEBAAAQAAEAAAEABAA=</HashCode>
+      <FileName>C:\Qt\5.14.1\msvc2017\include\QtWidgets\qgraphicsitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGraphicsSimpleTextItem" Collapsed="true">
+    <Position X="9.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABoAAQAAAAAQCAAAAAAAAACAAAEJgAAYAAEAAAAABAA=</HashCode>
+      <FileName>C:\Qt\5.14.1\msvc2017\include\QtWidgets\qgraphicsitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGraphicsEllipseItem" Collapsed="true">
+    <Position X="3.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAAAAAAAAQCgAgAAAAIAACAAEJAAAQggGAAAAABAA=</HashCode>
+      <FileName>C:\Qt\5.14.1\msvc2017\include\QtWidgets\qgraphicsitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QWidget" Collapsed="true">
+    <Position X="19" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hA6pAGgYqICSoYVAaL8yqpBimu1GwLWO4PBqCgXdwII=</HashCode>
+      <FileName>C:\Qt\5.14.1\msvc2017\include\QtWidgets\qwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="renoir::Rule">
+    <Position X="37.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LSystem.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="renoir::BlendingMode">
+    <Position X="12.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAAAAACABAMAEAAAAQAAAAAAQAAICAAAAAAAAAAI=</HashCode>
+      <FileName>enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="renoir::ChannelSelection">
+    <Position X="47.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="renoir::ColorMode">
+    <Position X="49.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="renoir::ImageFormat">
+    <Position X="46.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAEAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="renoir::LayerType">
+    <Position X="3.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAIAAAAAAAQAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="renoir::PixmapMode">
+    <Position X="13" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAQAAIAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="renoir::Tool">
+    <Position X="19.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAIAAAAAAAAAAAAAgAApAAAAAAAAAAIA=</HashCode>
+      <FileName>enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

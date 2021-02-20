@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{73CAFF57-9E32-48B9-8878-129335D8A3EE}</ProjectGuid>
+    <Keyword>QtVS_v302</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <QtInstall>msvc2017</QtInstall>
+    <QtModules>charts;core;gui;positioning;svg;uitools;widgets</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <QtInstall>msvc2017</QtInstall>
+    <QtModules>charts;core;gui;positioning;svg;uitools;widgets</QtModules>
+  </PropertyGroup>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Base64ExportDialog.cpp" />
+    <ClCompile Include="Base64Output.cpp" />
+    <ClCompile Include="Brush.cpp" />
+    <ClCompile Include="BrushSizeDialog.cpp" />
+    <ClCompile Include="Canvas.cpp" />
+    <ClCompile Include="Dither.cpp" />
+    <ClCompile Include="DitherDialog.cpp" />
+    <ClCompile Include="EdgeDetection.cpp" />
+    <ClCompile Include="EdgeDetectionDialog.cpp" />
+    <ClCompile Include="Ellipse.cpp" />
+    <ClCompile Include="EllipseSettingsDialog.cpp" />
+    <ClCompile Include="Eraser.cpp" />
+    <ClCompile Include="Exporter.cpp" />
+    <ClCompile Include="Filter.cpp" />
+    <ClCompile Include="Fractal.cpp" />
+    <ClCompile Include="Gauss.cpp" />
+    <ClCompile Include="GaussianBlurDialog.cpp" />
+    <ClCompile Include="Julia.cpp" />
+    <ClCompile Include="JuliaDialog.cpp" />
+    <ClCompile Include="Kernel.cpp" />
+    <ClCompile Include="KernelDialog.cpp" />
+    <ClCompile Include="Layer.cpp" />
+    <ClCompile Include="LSystem.cpp" />
+    <ClCompile Include="LSystemDialog.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mandelbrot.cpp" />
+    <ClCompile Include="MandelbrotDialog.cpp" />
+    <ClCompile Include="NewFileDialog.cpp" />
+    <ClCompile Include="NoiseDialog.cpp" />
+    <ClCompile Include="non_template_functions.cpp" />
+    <ClCompile Include="PixmapExport.cpp" />
+    <ClCompile Include="RandomNoise.cpp" />
+    <ClCompile Include="RasterLayer.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="RectangleSettingsDialog.cpp" />
+    <ClCompile Include="Renoir.cpp" />
+    <ClCompile Include="SetLayerNameDialog.cpp" />
+    <ClCompile Include="Sharpen.cpp" />
+    <ClCompile Include="SharpenDialog.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="TextSettingsDialog.cpp" />
+    <ClCompile Include="Treshold.cpp" />
+    <ClCompile Include="TresholdDialog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Renoir.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="applyDitheringFilterDialog.ui" />
+    <QtUic Include="applyEdgeDetectionFilterDialog.ui" />
+    <QtUic Include="applyGaussianFilterDialog.ui" />
+    <QtUic Include="applySharpenFilterDialog.ui" />
+    <QtUic Include="applyTresholdFilterDialog.ui" />
+    <QtUic Include="applyKernelFilterDialog.ui" />
+    <QtUic Include="base64ExportDialog.ui" />
+    <QtUic Include="base64OutputDialog.ui" />
+    <QtUic Include="EllipseSettingDialog.ui" />
+    <QtUic Include="RectangleSettingDialog.ui" />
+    <QtUic Include="setLayerNameDialog.ui" />
+    <QtUic Include="JuliaDialog.ui" />
+    <QtUic Include="LSystemDialog.ui" />
+    <QtUic Include="MandelbrotDialog.ui" />
+    <QtUic Include="newFileDialog.ui" />
+    <QtUic Include="noiseDialog.ui" />
+    <QtUic Include="portable_anymap_export_dialog.ui" />
+    <QtUic Include="Renoir.ui" />
+    <QtUic Include="setBrushSizeDialog.ui" />
+    <QtUic Include="TextSettingsDialog.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Renoir.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Base64ExportDialog.h" />
+    <QtMoc Include="Base64Output.h" />
+    <ClInclude Include="Brush.h" />
+    <QtMoc Include="BrushSizeDialog.h" />
+    <ClInclude Include="Canvas.h" />
+    <ClInclude Include="Dither.h" />
+    <QtMoc Include="TresholdDialog.h" />
+    <QtMoc Include="DitherDialog.h" />
+    <ClInclude Include="EdgeDetection.h" />
+    <QtMoc Include="EdgeDetectionDialog.h" />
+    <ClInclude Include="Ellipse.h" />
+    <QtMoc Include="EllipseSettingsDialog.h" />
+    <ClInclude Include="enums.h" />
+    <ClInclude Include="Eraser.h" />
+    <ClInclude Include="Exporter.h" />
+    <ClInclude Include="Filter.h" />
+    <ClInclude Include="Fractal.h" />
+    <ClInclude Include="functions.h" />
+    <ClInclude Include="Gauss.h" />
+    <QtMoc Include="GaussianBlurDialog.h" />
+    <ClInclude Include="Julia.h" />
+    <QtMoc Include="JuliaDialog.h" />
+    <ClInclude Include="Kernel.h" />
+    <QtMoc Include="KernelDialog.h" />
+    <ClInclude Include="Layer.h" />
+    <QtMoc Include="PixmapExport.h" />
+    <ClInclude Include="LSystem.h" />
+    <QtMoc Include="LSystemDialog.h" />
+    <ClInclude Include="Mandelbrot.h" />
+    <QtMoc Include="NewFileDialog.h" />
+    <QtMoc Include="MandelbrotDialog.h" />
+    <QtMoc Include="NoiseDialog.h" />
+    <ClInclude Include="non_template_functions.h" />
+    <ClInclude Include="RandomNoise.h" />
+    <ClInclude Include="RasterLayer.h" />
+    <ClInclude Include="Rectangle.h" />
+    <QtMoc Include="SetLayerNameDialog.h" />
+    <QtMoc Include="RectangleSettingsDialog.h" />
+    <ClInclude Include="Sharpen.h" />
+    <QtMoc Include="SharpenDialog.h" />
+    <ClInclude Include="Text.h" />
+    <QtMoc Include="TextSettingsDialog.h" />
+    <ClInclude Include="Treshold.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="fass.json" />
+    <None Include="fass2.json" />
+    <None Include="koch1.json" />
+    <None Include="koch10.json" />
+    <None Include="koch2.json" />
+    <None Include="koch3.json" />
+    <None Include="koch4.json" />
+    <None Include="koch5.json" />
+    <None Include="koch6.json" />
+    <None Include="koch7.json" />
+    <None Include="koch8.json" />
+    <None Include="koch9.json" />
+    <None Include="tree1.json" />
+    <None Include="tree2.json" />
+    <None Include="tree3.json" />
+    <None Include="tree4.json" />
+    <None Include="tree5.json" />
+    <None Include="tree6.json" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

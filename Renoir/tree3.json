@@ -1,0 +1,10 @@
+{
+  "angle": 20.0,
+  "rules": [
+    {
+      "character": "F",
+      "result": "F[+F]F[-F][F]"
+    }
+  ],
+  "axiom": "F"
+}
